@@ -1,0 +1,6 @@
+- hosts: servers
+  become_user: root
+  remote_user: cpd
+  become: yes
+  roles:
+    - { role: virt-backup }
