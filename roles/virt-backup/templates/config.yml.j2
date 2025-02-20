@@ -4,11 +4,9 @@ groups:
   backup:
     target: /mnt/nas
     hosts: {{hosts}}
-    daily: 1
     weekly: 1
-  teste:
+  {% comment %} teste:
     target: /mnt/nas
     hosts:
     - dcnetvm_k8s3
-    daily: 1
-    weekly: 1
+    weekly: 1 {% endcomment %}
