@@ -4,6 +4,7 @@
      - "dcnetvm_k8s1"
      - "dcnetvm5"
      - "dcnetvm_admins"
+     - "win10-TESTE"
   template:
     src: config.yml.j2
     dest: $HOME/.config/virt-backup/config.yml
